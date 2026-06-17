@@ -2,6 +2,7 @@ import { useState, useEffect, useContext, useRef } from "react";
 import "./App.css";
 import { ThemeContext } from "./context/ThemeContext";
 import User from "./components/User";
+import Todo from "./components/Todo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -87,6 +88,8 @@ function App() {
         >
           Show Value
         </button>
+        <hr/>
+        <Todo/>
       </section>
     </div>
   );
