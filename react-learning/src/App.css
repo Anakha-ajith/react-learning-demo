@@ -1,0 +1,19 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #363535;
+  color: white;
+}
+
+.counter {
+  margin: 10px;
+  padding: 10px 20px;
+}
